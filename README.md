@@ -33,45 +33,74 @@ At the end of the experiment of one month with the bot running from monday to fr
 
 Please note the incoming paper about this implementation with a 182% return (soon)
 
-AchillesV1: AI-Driven Gold Trading with Sentiment & Time-Series Forecasting
+
+
+
+# AchillesV1: AI-Driven Gold Trading with Sentiment & Time-Series Forecasting
+
 🚀 Ready to Predict the Future?
-AchillesV1 is an AI-driven system designed for automated stock market trading. In a demo account, this implementation achieved an impressive 182% return on investment. The trading bot automatically places orders based on real-time predictions and sentiment analysis, allowing you to profit—even while you sleep!
-This system is expandable to multiple markets, including Forex, Indices, and Crypto, adapting its predictions and strategies accordingly.
 
-📊 Training Data
-For training, we used the following dataset:
-🔗 Ethereum Data to Predict the Gold Market
+AchillesV1 is an AI-powered trading bot designed to **automate stock market investments**. 
+In a **demo account**, this system achieved an **182% return on investment** by leveraging 
+**deep learning market predictions** and **sentiment analysis from real-time news**.
 
-🏗 System Architecture
-AchillesV1 consists of three powerful components that work together to automate trading decisions:
-🔥 1. LSTM Neural Network for Market Prediction
-AchillesV1 leverages an LSTM model trained on seasonal time frames (15m, 5m, and 1m data) from Ethereum vs USD.
-📌 Why gold?
-We chose gold (XAU-USD) for its high leverage and predictable trends, outperforming volatile assets like Bitcoin (BTC-USD) or GBP-USD.
+This solution can be **expanded to Forex, Indices, and Crypto markets**, enabling automated 
+high-frequency trading strategies.
 
-📰 2. Sentiment Analysis with FinBERT
-To capture real-time market sentiment, we extract insights from multiple financial news sources:
-- 📢 Benzinga (XAU-USD)
-- 📊 Investing.com (XAU-USD)
-- 📰 Financial Times (General Market News)
-(You can add more sources as needed.)
-🛠 Why sentiment analysis?
-Market forecasts alone aren't enough—real-world events affect investor behavior. This component ensures AchillesV1 reacts to real-time market conditions before executing trades.
+---
 
-🤖 3. Automated Trading Bot
-This component integrates market predictions and sentiment analysis to:
-✅ Place buy & sell orders automatically
-✅ Apply risk management strategies
-✅ Optimize position sizing for volatility control
+## 📊 Training Data  
+For model training, we used the following dataset:  
+🔗 [Ethereum Data to Predict the Gold Market](https://www.kaggle.com/datasets/angelvarela/ethereum-data-to-predict-the-gold-market)
 
-At the end of a one-month experiment, running Monday-Friday (market open days), AchillesV1 achieved:
-🎯 📈 182% return on investment
+---
 
-📌 Key Takeaways
-✅ Stock markets CAN be predicted 🧠
-✅ You don’t need to watch charts all day to invest 📊
+## 🏗 System Architecture  
 
-📜 Coming Soon:
-📄 A research paper detailing AchillesV1’s methodology & results (182% ROI!)
+AchillesV1 combines **three key components** to generate automated trading decisions:  
 
-Would you like me to refine any part further or add installation/setup instructions? 🚀🔥
+### 🔥 1. LSTM Neural Network for Market Prediction  
+AchillesV1 applies an **LSTM model trained on seasonal time frames**:
+- **15m, 5m, and 1m** historical data from **Ethereum vs USD**
+- Predicts **future price movements** for high-accuracy trading  
+
+📌 **Why Gold?**  
+Gold (XAU-USD) was chosen for its **high leverage & predictable trends**, outperforming 
+volatile assets like **Bitcoin BTC-USD or GBP-USD**.
+
+---
+
+### 📰 2. Sentiment Analysis with FinBERT  
+This component extracts **real-time sentiment** from financial news sources:  
+
+- 📢 [Benzinga](https://www.benzinga.com) (XAU-USD)  
+- 📊 [Investing.com](https://www.investing.com) (XAU-USD)  
+- 📰 [Financial Times](https://www.ft.com) (General Market News)  
+*(Additional sources can be added as needed.)*
+
+🛠 **Why Sentiment Analysis?**  
+Market forecasts alone **aren't enough**—news & real-world events drive investor behavior.  
+AchillesV1 ensures **real-time market responsiveness** before executing trades.
+
+---
+
+### 🤖 3. Automated Trading Bot  
+This component **merges predictions & sentiment analysis** to:
+✅ Execute **buy & sell orders** automatically  
+✅ Implement **risk management strategies**  
+✅ Adjust **position sizing based on volatility**  
+
+At the end of a **one-month experiment**, running **Monday-Friday** (market open days), 
+AchillesV1 achieved:  
+🎯 **📈 182% return on investment**  
+
+---
+
+## 📌 Key Takeaways  
+✅ **Stock markets CAN be predicted** 🧠  
+✅ **You don’t need to watch charts all day to invest** 📊  
+
+---
+
+## 📜 Coming Soon  
+📄 **A research paper detailing AchillesV1’s methodology & results (182% ROI!)**  
